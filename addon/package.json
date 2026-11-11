@@ -1,0 +1,20 @@
+{
+  "name": "@censorcraft/addon",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "textures": "node tools/gen-textures.mjs",
+    "build": "node tools/gen-textures.mjs && node tools/build.mjs",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@censorcraft/shared": "workspace:*",
+    "@minecraft/server": "2.11.0",
+    "@minecraft/server-ui": "2.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2",
+    "fflate": "0.8.3"
+  }
+}

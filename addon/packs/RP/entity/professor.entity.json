@@ -1,0 +1,28 @@
+{
+  "format_version": "1.10.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "censor:professor",
+      "materials": {
+        "default": "entity_alphatest"
+      },
+      "textures": {
+        "default": "textures/entity/censor_professor"
+      },
+      "geometry": {
+        "default": "geometry.censor.professor"
+      },
+      "render_controllers": ["controller.render.censor.professor"],
+      "animations": {
+        "look_at_target": "animation.censor.look_at_target",
+        "walk": "animation.censor.walk",
+        "point": "animation.censor.point",
+        "nod": "animation.censor.nod",
+        "shake": "animation.censor.shake"
+      },
+      "scripts": {
+        "animate": ["look_at_target", "walk", "point"]
+      }
+    }
+  }
+}

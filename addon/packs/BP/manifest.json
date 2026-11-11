@@ -1,0 +1,29 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "CensorCraft",
+    "description": "Study real course material with Professor Censor. Needs the CensorCraft companion app.",
+    "uuid": "d5a3c4fd-f082-424e-8c61-3ae0789cb28d",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 26, 60]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "01a41d1d-ea69-42bb-96b6-285232cdf255",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "58e03b65-4ce5-4721-8b48-897c7f884bf1",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "2.11.0" },
+    { "module_name": "@minecraft/server-ui", "version": "2.3.0" },
+    { "uuid": "a1f2ba87-a4c6-4457-b0c2-f390822d43b3", "version": [1, 0, 0] }
+  ]
+}

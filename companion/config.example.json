@@ -1,0 +1,35 @@
+{
+  "ai": {
+    "provider": "claude",
+    "model": "claude-opus-5-5",
+    "apiKey": "PASTE-YOUR-API-KEY-HERE",
+    "apiKeyEnv": "",
+    "baseUrl": "",
+    "timeoutMs": 60000,
+    "maxRetries": 2,
+    "maxOutputTokens": 8000,
+    "effort": "low"
+  },
+  "courseFolder": "C:/Users/you/Documents/Courses",
+  "topicFolders": {
+    "Calculus 1": "calculus1",
+    "Linear Algebra": "linear-algebra",
+    "C Fundamentals": "c-programming"
+  },
+  "websocket": {
+    "host": "localhost",
+    "port": 8765
+  },
+  "limits": {
+    "requestsPerMinute": 20,
+    "perPlayerRequestsPerMinute": 8,
+    "maxRequestsPerDay": 500,
+    "maxConcurrentRequests": 2,
+    "dailyTokenBudget": 0,
+    "maxMaterialChars": 6000
+  },
+  "session": {
+    "idleTimeoutMinutes": 30
+  },
+  "logLevel": "info"
+}

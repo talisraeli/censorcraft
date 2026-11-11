@@ -1,0 +1,21 @@
+{
+  "name": "censorcraft",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CensorCraft - study real course material inside Minecraft Bedrock with Professor Censor.",
+  "packageManager": "pnpm@12.18.0",
+  "engines": { "node": ">=22" },
+  "type": "module",
+  "scripts": {
+    "build": "pnpm --filter @censorcraft/addon build",
+    "typecheck": "pnpm -r typecheck",
+    "test": "vitest run",
+    "start": "pnpm --filter @censorcraft/companion start",
+    "fake-client": "pnpm --filter @censorcraft/companion fake-client",
+    "textures": "pnpm --filter @censorcraft/addon textures"
+  },
+  "devDependencies": {
+    "typescript": "7.0.2",
+    "vitest": "5.1.0"
+  }
+}
