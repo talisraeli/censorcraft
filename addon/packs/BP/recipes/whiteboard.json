@@ -1,0 +1,20 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:recipe_shaped": {
+    "description": {
+      "identifier": "censor:whiteboard"
+    },
+    "tags": ["crafting_table"],
+    "pattern": ["PPP", "PPP", "SAS"],
+    "key": {
+      "P": { "item": "minecraft:paper" },
+      "S": { "item": "minecraft:stick" },
+      "A": { "item": "minecraft:apple" }
+    },
+    "unlock": [{ "item": "minecraft:paper" }, { "item": "minecraft:apple" }],
+    "result": {
+      "item": "censor:whiteboard",
+      "count": 1
+    }
+  }
+}

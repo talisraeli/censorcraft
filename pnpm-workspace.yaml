@@ -1,0 +1,12 @@
+packages:
+  - shared
+  - addon
+  - companion
+minimumReleaseAgeExclude:
+  - '@anthropic-ai/sdk@1.7.0'
+
+# esbuild needs its postinstall script to fetch the platform binary.
+allowBuilds:
+  esbuild: true
+onlyBuiltDependencies:
+  - esbuild

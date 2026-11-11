@@ -1,0 +1,9 @@
+node_modules/
+dist/
+build/
+*.log
+# Secrets: the companion config holds your AI API key in plaintext. Never commit it.
+config.json
+companion/config.json
+.env
+.censor-cache/

@@ -1,0 +1,26 @@
+{
+  "name": "@censorcraft/companion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "fake-client": "tsx src/tools/fake-client.ts",
+    "typecheck": "tsc -p tsconfig.json"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.7.0",
+    "@censorcraft/shared": "workspace:*",
+    "chokidar": "6.0.0",
+    "fflate": "0.8.3",
+    "mammoth": "1.13.0",
+    "tsx": "4.23.15",
+    "unpdf": "2.1.0",
+    "ws": "8.22.2",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "26.6.6",
+    "@types/ws": "8.18.2"
+  }
+}
